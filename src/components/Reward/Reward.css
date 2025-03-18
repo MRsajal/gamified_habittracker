@@ -1,0 +1,56 @@
+.Reward {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.form-cls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.form-cls input {
+  padding: 5px;
+  margin: 3px;
+  outline: none;
+}
+
+.form-cls button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #a2a8a2;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.form-cls button:hover {
+  font-size: 15px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #d0ddd0;
+  color: black;
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card-container {
+  display: flex;
+}
+.card button {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+}
+.card:hover {
+  background-color: #a2a8a2;
+}
